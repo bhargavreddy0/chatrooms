@@ -1,0 +1,55 @@
+body,html{
+    background-color: rgb(174, 135, 242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.auth{
+   height: 200px;
+   width: 200px;
+   background-color: rgb(79, 116, 225);
+   border-radius: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.sign-in-text{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+.sign-in-button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    border-radius: 15px;
+    border: none;
+}
+.room{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(79, 116, 225);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.chat-app{
+    overflow-y: scroll;
+    
+}
+.chat-app::-webkit-scrollbar {
+    display: none;
+}
+.message{
+    display: flex;
+    
+    
+}
+.message-user{
+margin-right: 10px;
+margin-bottom: 5px;
+}
+
+
